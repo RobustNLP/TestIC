@@ -1,0 +1,8 @@
+input_dir: ./sample_images/*.jpg    
+output_dir: ./out/lama_inputs/
+annotation_path: ./instances_annotation.json
+pkl_dir: ./out
+
+max_depth: 3  # This would limit how much depth that goes down a recursion
+max_num: 3    # For demo purpose only, here we limit the maximum synthesized image number to 3 
+
